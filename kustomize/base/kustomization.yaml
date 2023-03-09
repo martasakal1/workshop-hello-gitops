@@ -9,4 +9,4 @@ images:
 - name: /hello-gitops
   newTag: latest
 - name: hello-gitops
-  newName: martasakal
+  newName: martasakal/hello-gitops

@@ -6,7 +6,6 @@ resources:
 - ingress.yaml
 namespace: hello-gitops
 images:
-- name: /hello-gitops
-  newTag: latest
 - name: hello-gitops
   newName: martasakal/hello-gitops
+  newTag: latest

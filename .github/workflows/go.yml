@@ -28,7 +28,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: ${{ secrets.DOCKER_USERNAME }}/hello-gitops
-        tags: ${{ github.sha }}, latest
+        tags: martasakal/hello-gitops:latest
 
   deploy:
     name: Deploy
